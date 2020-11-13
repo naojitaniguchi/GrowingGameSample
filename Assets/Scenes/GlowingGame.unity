@@ -153,10 +153,18 @@ MonoBehaviour:
   trainings:
   - {fileID: 11400000, guid: 88fa5f294730c4d40945a37d21d68807, type: 2}
   - {fileID: 11400000, guid: efb6e91620d224eb9befdc07483f46e0, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 92a46a876573f4e23afc6f403ac27f81, type: 2}
+  - {fileID: 11400000, guid: 8d2cf2c50b83e4cb48dfc54725467687, type: 2}
+  - {fileID: 11400000, guid: defde0f88a4c64c45860031bfc133266, type: 2}
+  - {fileID: 11400000, guid: 5e1eb70230e4e4473b4347010a4c0898, type: 2}
+  - {fileID: 11400000, guid: b32503033c27046fab16f24c2ab69eae, type: 2}
+  - {fileID: 11400000, guid: 0eb386c55c19d48368819a7d4c73db06, type: 2}
+  - {fileID: 11400000, guid: a33b57cf41e384b5c98b9d60131623ff, type: 2}
+  - {fileID: 11400000, guid: 166471e520b1d4cd1b19e20a95c68d69, type: 2}
+  schedule: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  scheduleNum: 0
+  scheduleText: {fileID: 652774719}
+  Player: {fileID: 0}
 --- !u!4 &216215818
 Transform:
   m_ObjectHideFlags: 0
@@ -393,7 +401,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 403983873}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 216215817}
+        m_MethodName: Schedule
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &403983873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,7 +531,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 435681635}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 216215817}
+        m_MethodName: Schedule
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &435681635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -773,7 +803,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "\u30B9\u30B1\u30B8\u30E5\u30FC\u30EB"
 --- !u!222 &652774722
@@ -1225,7 +1255,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1200607315}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 216215817}
+        m_MethodName: Schedule
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1200607315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1422,7 +1463,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1296235107}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 216215817}
+        m_MethodName: Schedule
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1296235107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1658,7 +1710,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1620381011}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 216215817}
+        m_MethodName: Schedule
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1620381011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1862,6 +1925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1655787675}
   - component: {fileID: 1655787674}
+  - component: {fileID: 1655787676}
   m_Layer: 0
   m_Name: game_yuusya_woman
   m_TagString: Untagged
@@ -1933,6 +1997,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1655787676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655787673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5d703cf4b9744af2947ae0b35d4910b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 10
+  intelligence: 10
+  dignity: 10
+  moral: 10
+  magicalPower: 10
+  sensitivity: 10
+  charm: 10
+  courtesy: 10
+  art: 10
+  speaking: 10
+  feeling: 10
 --- !u!1 &1803045075
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,7 +2257,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1991217099}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 216215817}
+        m_MethodName: Schedule
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1991217099
 MonoBehaviour:
   m_ObjectHideFlags: 0

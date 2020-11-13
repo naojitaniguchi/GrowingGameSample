@@ -9,6 +9,8 @@ public class GrowGameManager : MonoBehaviour
     public int[] schedule;
     public int scheduleNum;
     public GameObject scheduleText;
+    public GameObject Player;
+
     public enum TrainingType
     {
         LECTURE_REIHOU,     // 0
@@ -22,6 +24,9 @@ public class GrowGameManager : MonoBehaviour
         WORK_NOUJOU,        // 8
         WORK_JINJA,         // 9
         WORK_YADOYA,        // 10
+        YASUMI_JIYUU,       // 11
+        YASUMI_RYKOU,       // 12
+        YASUMI_KYUKEI,      // 13
     }
 
 
@@ -48,5 +53,20 @@ public class GrowGameManager : MonoBehaviour
             schedule[scheduleNum] = type;
             scheduleNum++;
         }
+    }
+
+    public void execute()
+    {
+        for ( int i = 0; i < scheduleNum; i ++)
+        {
+            Player.GetComponent<Player>().calcParameter(trainings[schedule[i]]);
+        }
+
+        for (int i = 0; i < scheduleNum; i++)
+        {
+            schedule[i] = 0;
+        }
+        scheduleNum = 0;
+        scheduleText.GetComponent<Text>().text = "スケジュール";
     }
 }

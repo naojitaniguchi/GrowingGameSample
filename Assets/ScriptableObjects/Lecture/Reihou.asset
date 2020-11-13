@@ -12,14 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea832dfe723a0400d9aaa541529806e2, type: 3}
   m_Name: Reihou
   m_EditorClassIdentifier: 
-  strength: 0
-  intelligence: 0
-  dignity: 0
-  moral: 0
-  magicalPower: 0
-  sensitivity: 0
-  charm: 0
-  courtesy: 0
-  art: 0
-  speaking: 0
-  feeling: 0
+  TrainingName: "\u793C\u6CD5"
+  strengthMin: 0
+  strengthMax: 0
+  intelligenceMin: 0
+  intelligenceMax: 0
+  dignityMin: 1
+  dignityMax: 10
+  moralMin: 0
+  moralMax: 0
+  magicalPowerMin: 0
+  magicalPowerMax: 0
+  sensitivityMin: 0
+  sensitivityMax: 0
+  charmMin: 0
+  charmMax: 0
+  courtesyMin: 0
+  courtesyMax: 0
+  artMin: 0
+  artMax: 0
+  speakingMin: 0
+  speakingMax: 0
+  feelingMin: 0
+  feelingMax: 0

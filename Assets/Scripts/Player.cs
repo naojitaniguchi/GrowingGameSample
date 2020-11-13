@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     public int art = 0;
     public int speaking = 0;
     public int feeling = 0;
+    public int stress = 0;
 
 
 
@@ -28,5 +29,30 @@ public class Player : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void calcParameter( Training training)
+    {
+        if (training.stressMax >= 0)
+        {
+            stress += 10;
+            if (stress > strength)
+            {
+                return;
+            }
+        }
+
+        strength += Random.Range(training.strengthMin, training.strengthMax);
+        intelligence += Random.Range(training.intelligenceMin, training.intelligenceMax);
+        dignity += Random.Range(training.dignityMin, training.dignityMax);
+        moral += Random.Range(training.moralMin, training.moralMax);
+        magicalPower += Random.Range(training.magicalPowerMin, training.magicalPowerMax);
+        sensitivity += Random.Range(training.sensitivityMin, training.sensitivityMax);
+        charm += Random.Range(training.charmMin, training.charmMax);
+        courtesy += Random.Range(training.courtesyMin, training.courtesyMax);
+        art += Random.Range(training.artMin, training.artMax);
+        speaking += Random.Range(training.speakingMin, training.speakingMax);
+        feeling += Random.Range(training.feelingMin, training.feelingMax);
+        stress += Random.Range(training.stressMin, training.stressMax);
     }
 }

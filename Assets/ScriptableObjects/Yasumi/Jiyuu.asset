@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea832dfe723a0400d9aaa541529806e2, type: 3}
-  m_Name: Daihitsu
+  m_Name: Jiyuu
   m_EditorClassIdentifier: 
-  TrainingName: "\u4EE3\u7B46"
-  strengthMin: -5
-  strengthMax: -1
+  TrainingName: 
+  strengthMin: 0
+  strengthMax: 0
   intelligenceMin: 0
   intelligenceMax: 0
   dignityMin: 0
@@ -35,3 +35,5 @@ MonoBehaviour:
   speakingMax: 0
   feelingMin: 0
   feelingMax: 0
+  stressMin: 0
+  stressMax: 0

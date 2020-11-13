@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea832dfe723a0400d9aaa541529806e2, type: 3}
   m_Name: Bungaku
   m_EditorClassIdentifier: 
+  TrainingName: "\u6587\u5B66"
   strength: 0
   intelligence: 0
   dignity: 0

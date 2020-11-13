@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea832dfe723a0400d9aaa541529806e2, type: 3}
   m_Name: Nougyou
   m_EditorClassIdentifier: 
-  TrainingName: 
+  TrainingName: "\u8FB2\u696D"
   strength: 0
   intelligence: 0
   dignity: 0
