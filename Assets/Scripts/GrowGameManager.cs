@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GrowGameManager : MonoBehaviour
 {
     public Training[] trainings;
     public int[] schedule;
     public int scheduleNum;
+    public GameObject scheduleText;
     public enum TrainingType
     {
         LECTURE_REIHOU,     // 0
@@ -38,6 +40,8 @@ public class GrowGameManager : MonoBehaviour
     public void Schedule( int type)
     {
         Debug.Log(trainings[type].TrainingName);
+
+        scheduleText.GetComponent<Text>().text += "\n" + trainings[type].TrainingName;
 
         if (scheduleNum < schedule.Length)
         {
