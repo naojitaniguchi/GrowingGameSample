@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea832dfe723a0400d9aaa541529806e2, type: 3}
   m_Name: Ryokou
   m_EditorClassIdentifier: 
-  TrainingName: 
+  TrainingName: "\u65C5\u884C"
   strengthMin: 0
   strengthMax: 0
   intelligenceMin: 0
@@ -35,5 +35,5 @@ MonoBehaviour:
   speakingMax: 0
   feelingMin: 0
   feelingMax: 0
-  stressMin: 0
-  stressMax: 0
+  stressMin: -60
+  stressMax: -60
