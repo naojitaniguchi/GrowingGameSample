@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea832dfe723a0400d9aaa541529806e2, type: 3}
+  m_Name: Mahou
+  m_EditorClassIdentifier: 
+  strength: 0
+  intelligence: 0
+  dignity: 0
+  moral: 0
+  magicalPower: 0
+  sensitivity: 0
+  charm: 0
+  courtesy: 0
+  art: 0
+  speaking: 0
+  feeling: 0
