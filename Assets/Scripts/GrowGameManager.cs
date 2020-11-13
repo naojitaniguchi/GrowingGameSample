@@ -5,6 +5,8 @@ using UnityEngine;
 public class GrowGameManager : MonoBehaviour
 {
     public Training[] trainings;
+    public int[] schedule;
+    public int scheduleNum;
     public enum TrainingType
     {
         LECTURE_REIHOU,     // 0
@@ -24,7 +26,7 @@ public class GrowGameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        scheduleNum = 0;
     }
 
     // Update is called once per frame
@@ -36,5 +38,11 @@ public class GrowGameManager : MonoBehaviour
     public void Schedule( int type)
     {
         Debug.Log(trainings[type].TrainingName);
+
+        if (scheduleNum < schedule.Length)
+        {
+            schedule[scheduleNum] = type;
+            scheduleNum++;
+        }
     }
 }
