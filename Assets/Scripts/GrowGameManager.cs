@@ -17,8 +17,7 @@ public class GrowGameManager : MonoBehaviour
         WORK_KAJI,          // 7
         WORK_NOUJOU,        // 8
         WORK_JINJA,         // 9
-        WORK_KAIGA,         // 10
-        WORK_YADOYA,        // 11
+        WORK_YADOYA,        // 10
     }
 
 
@@ -32,5 +31,10 @@ public class GrowGameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Schedule( int type)
+    {
+        Debug.Log(trainings[type].TrainingName);
     }
 }
