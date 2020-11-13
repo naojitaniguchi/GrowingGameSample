@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "MyScriptable/Create Training")]
 public class Training : ScriptableObject
 {
+    public string TrainingName;
     public int strength = 0;
     public int intelligence = 0;
     public int dignity = 0;

@@ -7,18 +7,18 @@ public class GrowGameManager : MonoBehaviour
     public Training[] trainings;
     public enum TrainingType
     {
-        LECTURE_REIHOU,
-        LECTURE_MAHOUGAKU,
-        LECTURE_BUNGAKU,
-        LECTURE_BUYOU,
-        LECTURE_KAIGA,
-        LECTURE_GOSINJUTU,
-        WORK_DAIHITSU,
-        WORK_KAJI,
-        WORK_NOUJOU,
-        WORK_JINJA,
-        WORK_KAIGA,
-        WORK_YADOYA,
+        LECTURE_REIHOU,     // 0
+        LECTURE_MAHOUGAKU,  // 1
+        LECTURE_BUNGAKU,    // 2
+        LECTURE_BUYOU,      // 3
+        LECTURE_KAIGA,      // 4
+        LECTURE_GOSINJUTU,  // 5
+        WORK_DAIHITSU,      // 6
+        WORK_KAJI,          // 7
+        WORK_NOUJOU,        // 8
+        WORK_JINJA,         // 9
+        WORK_KAIGA,         // 10
+        WORK_YADOYA,        // 11
     }
 
 
